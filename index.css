@@ -5,9 +5,11 @@ img{
   h1{
 
     font-size:57px;
+   text-align: start;
   }  
   p{
     font-size: xx-large;
+    text-align: start;
   }
   input{
     outline: none;
@@ -23,5 +25,25 @@ font-size:x-large
 .luminargirl{
   height: 700px;
 }
+.our,h3{
+  text-align: center;
+  color: blueviolet;
+}
+span{
+  color: rgb(131, 102, 158);
+}
+.parent{
+  align-items: center;
+  display: flex;
+}
+.col-4{
 
- 
+  transition: 0.3s;
+  /* height: 100px; */
+  
+}
+
+
+.col-4:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
